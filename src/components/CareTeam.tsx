@@ -72,11 +72,11 @@ const CareTeam = () => {
           </div>
 
           <div className="relative">
-            <div className="aspect-[3/4] bg-gradient-to-br from-azure-mist to-honeydew rounded-2xl overflow-hidden shadow-lg">
+            <div className="w-[500px] bg-gradient-to-br from-azure-mist to-honeydew rounded-2xl overflow-hidden shadow-lg">
               <img
                 src="/public/images/Facetune_16-07-2025-14-50-37.png"
                 alt="Colton Reid, FNP-C"
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-jade-green/20 rounded-full"></div>
