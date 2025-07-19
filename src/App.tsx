@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Mission from './components/Mission';
 import CoreIssues from './components/CoreIssues';
 import Services from './components/Services';
+import CareTeam from './components/CareTeam';
 import Approach from './components/Approach';
 import Footer from './components/Footer';
 
@@ -15,6 +16,7 @@ function App() {
       <Mission />
       <CoreIssues />
       <Services />
+      <CareTeam />
       <Approach />
       <Footer />
     </div>
