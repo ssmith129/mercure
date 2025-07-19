@@ -58,13 +58,13 @@ const CareTeam = () => {
 
             <div className="grid md:grid-cols-3 gap-6">
               {credentials.map((credential, index) => (
-                <div key={index} className="text-center space-y-3">
+                <div key={index} className="space-y-3">
                   <div className="w-12 h-12 bg-jade-green/10 rounded-full flex items-center justify-center mx-auto">
                     <credential.icon className="h-6 w-6 text-jade-green" />
                   </div>
                   <div className="space-y-1">
-                    <h4 className="font-semibold text-jet-black font-inter text-sm">{credential.title}</h4>
-                    <p className="text-xs text-gray-600 font-open-sans leading-tight">{credential.description}</p>
+                    <h4 className="font-semibold text-jet-black font-inter text-sm text-center">{credential.title}</h4>
+                    <p className="text-xs text-gray-600 font-open-sans leading-tight text-center">{credential.description}</p>
                   </div>
                 </div>
               ))}
