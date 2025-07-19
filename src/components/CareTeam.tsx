@@ -30,7 +30,7 @@ const CareTeam = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8 lg:col-span-1">
+          <div className="space-y-8">
             <div className="space-y-6">
               <div>
                 <h3 className="text-3xl font-bold text-jet-black font-inter mb-2">
@@ -71,7 +71,7 @@ const CareTeam = () => {
             </div>
           </div>
 
-          <div className="relative lg:col-span-1 flex justify-center">
+          <div className="relative flex justify-center">
             <div className="w-[300px] bg-gradient-to-br from-azure-mist to-honeydew rounded-2xl overflow-hidden shadow-lg">
               <img
                 src="/public/images/Facetune_16-07-2025-14-50-37.png"
