@@ -56,16 +56,14 @@ const CareTeam = () => {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8 mt-8">
+            <div className="space-y-8 mt-8">
               {credentials.map((credential, index) => (
-                <div key={index} className="space-y-4">
-                  <div className="w-16 h-16 bg-jade-green/10 rounded-full flex items-center justify-center mx-auto">
-                    <credential.icon className="h-8 w-8 text-jade-green" />
+                <div key={index} className="space-y-2">
+                  <div className="flex items-center space-x-3">
+                    <credential.icon className="h-6 w-6 text-jade-green flex-shrink-0" />
+                    <h4 className="font-semibold text-jet-black font-inter text-lg">{credential.title}</h4>
                   </div>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-jet-black font-inter text-base text-center">{credential.title}</h4>
-                    <p className="text-sm text-gray-600 font-open-sans leading-relaxed text-center">{credential.description}</p>
-                  </div>
+                  <p className="text-gray-600 font-open-sans leading-relaxed pl-9">{credential.description}</p>
                 </div>
               ))}
             </div>
@@ -79,8 +77,6 @@ const CareTeam = () => {
                 className="w-full h-auto object-cover"
               />
             </div>
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-jade-green/20 rounded-full"></div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-deep-teal/10 rounded-full"></div>
           </div>
         </div>
       </div>
