@@ -29,8 +29,8 @@ const CareTeam = () => {
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8">
+        <div className="grid lg:grid-cols-10 gap-16 items-center">
+          <div className="lg:col-span-7 space-y-8">
             <div className="space-y-6">
               <div>
                 <h3 className="text-3xl font-bold text-jet-black font-inter mb-2">
@@ -71,7 +71,7 @@ const CareTeam = () => {
             </div>
           </div>
 
-          <div className="relative flex justify-center">
+          <div className="lg:col-span-3 flex justify-center">
             <div className="w-[300px] bg-gradient-to-br from-azure-mist to-honeydew rounded-2xl overflow-hidden shadow-lg">
               <img
                 src="/public/images/Facetune_16-07-2025-14-50-37.png"
@@ -79,8 +79,6 @@ const CareTeam = () => {
                 className="w-full h-auto object-cover"
               />
             </div>
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-jade-green/20 rounded-full"></div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-deep-teal/10 rounded-full"></div>
           </div>
         </div>
       </div>
