@@ -13,7 +13,6 @@ const Hero = () => {
                 <span className="text-jade-green">Confidence</span> <br />
                 Through Science
               </h1>
-              <p className="text-xl text-deep-teal font-open-sans leading-relaxed">
               <p className="text-[20px] text-deep-teal font-open-sans font-normal leading-[32.5px] text-left">
                 Empowering individuals to achieve aesthetic confidence through innovative, personalized, and science-backed health solutions. True beauty radiates from within and is nurtured by optimal health.
               </p>
