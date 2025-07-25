@@ -11,6 +11,7 @@ const Hero = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-jet-black font-inter leading-tight">
                 Aesthetic <br />
                 <span className="text-jade-green">Confidence</span> <br />
+                <span className="text-jade-green font-inter text-[2.5rem] font-bold leading-[3.125rem]">Confidence</span> <br />
                 Through Science
               </h1>
               <p className="text-[20px] text-deep-teal font-open-sans font-normal leading-[32.5px] text-left">
