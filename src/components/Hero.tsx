@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-6">
-              <h1 className="text-5xl lg:text-6xl font-bold text-jet-black font-inter leading-tight flex w-[35.375rem] flex-col justify-center self-stretch">
+              <h1 className="text-5xl lg:text-6xl font-bold text-jet-black font-inter leading-tight">
                 Aesthetic <br />
                 <span className="text-jade-green">Confidence</span> <br />
                 Through Science
