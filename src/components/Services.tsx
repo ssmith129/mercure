@@ -5,35 +5,35 @@ const Services = () => {
   const services = [
     {
       name: "Platelet Rich Plasma (PRP)",
-      description: "In-person treatments for skin rejuvenation, hair restoration, and joint health using your body's natural healing factors.",
+      description: "In-person treatments for skin rejuvenation, hair restoration, and joint health.",
       availability: "In-Person",
       icon: "🩸",
       type: "in-person"
     },
     {
       name: "IV Fluid Therapy",
-      description: "In-person nutrient infusions for hydration, energy, and overall wellness with immediate benefits.",
+      description: "In-person nutrient infusions for hydration, energy, and overall wellness.",
       availability: "In-Person",
       icon: "💧",
       type: "in-person"
     },
     {
       name: "Peptide Therapy",
-      description: "Targeted solutions for various health goals including muscle building, fat loss, and anti-aging.",
+      description: "Available both in-person and virtually, offering targeted solutions for various health goals.",
       availability: "In-Person & Virtual",
       icon: "🧬",
       type: "both"
     },
     {
       name: "Functional Medicine Consultations",
-      description: "Comprehensive health assessments and personalized treatment plans addressing root causes.",
+      description: "Comprehensive health assessments and personalized treatment plans, available both in-person and virtually.",
       availability: "In-Person & Virtual",
       icon: "🔬",
       type: "both"
     },
     {
       name: "Lab Collection",
-      description: "Convenient in-person lab services for comprehensive health insights and biomarker analysis.",
+      description: "Convenient in-person lab services for comprehensive health insights.",
       availability: "In-Person",
       icon: "🧪",
       type: "in-person"
@@ -47,21 +47,21 @@ const Services = () => {
     },
     {
       name: "Sexual Health Programs",
-      description: "Comprehensive solutions including prescription medications to address concerns and enhance vitality.",
+      description: "Both in-person and virtual solutions (including prescription medications) to address concerns and enhance vitality.",
       availability: "In-Person & Virtual",
       icon: "❤️",
       type: "both"
     },
     {
       name: "Hair Restoration Programs",
-      description: "Complete solutions including pills, creams, and PRP treatments for optimal hair health.",
+      description: "Comprehensive solutions (pills, creams, PRP) available both in-person and virtually.",
       availability: "In-Person & Virtual",
       icon: "💇",
       type: "both"
     },
     {
       name: "Hormone Optimization",
-      description: "Personalized hormone balancing programs for men and women to restore vitality and well-being.",
+      description: "Personalized hormone balancing programs for men and women, available both in-person and virtually.",
       availability: "In-Person & Virtual",
       icon: "⚖️",
       type: "both"

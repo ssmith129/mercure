@@ -12,12 +12,12 @@ const Footer = () => {
   };
 
   const coreIssues = [
-    'Skin Health',
-    'Hair Restoration', 
-    'Body Composition & Muscle',
-    'Sexual Health & Vitality',
-    'Weight Management',
-    'Anti-aging & Longevity'
+    'Skin',
+    'Hair',
+    'Body Composition/Muscle',
+    'Sex/Vitality',
+    'Weight',
+    'Antiaging'
   ];
 
   const services = [

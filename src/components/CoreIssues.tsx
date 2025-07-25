@@ -7,42 +7,42 @@ const CoreIssues = () => {
       id: 'skin',
       icon: Sparkles,
       title: "Skin Health",
-      description: "Rejuvenation, clarity, and anti-aging solutions for radiant, healthy skin.",
+      description: "Rejuvenation, clarity, and anti-aging solutions.",
       image: "https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       id: 'hair',
       icon: Users,
       title: "Hair Restoration",
-      description: "Solutions for thinning hair and promoting healthy growth for fuller, stronger hair.",
+      description: "Solutions for thinning hair and promoting healthy growth.",
       image: "https://images.pexels.com/photos/3985167/pexels-photo-3985167.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       id: 'body',
       icon: Zap,
-      title: "Body Composition & Muscle",
-      description: "Strategies for sculpting the body and enhancing physical strength and definition.",
+      title: "Body Composition & Muscle Optimization",
+      description: "Strategies for sculpting the body and enhancing physical strength.",
       image: "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       id: 'vitality',
       icon: Heart,
       title: "Sexual Health & Vitality",
-      description: "Improving desire, performance, and overall well-being for enhanced vitality.",
+      description: "Improving desire, performance, and overall well-being.",
       image: "https://images.pexels.com/photos/3997992/pexels-photo-3997992.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       id: 'weight',
       icon: Scale,
       title: "Weight Management",
-      description: "Sustainable approaches to healthy weight loss and maintenance for lasting results.",
+      description: "Sustainable approaches to healthy weight loss and maintenance.",
       image: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       id: 'antiaging',
       icon: Clock,
       title: "Anti-aging & Longevity",
-      description: "Comprehensive programs to slow the aging process and enhance vitality for life.",
+      description: "Comprehensive programs to slow the aging process and enhance vitality.",
       image: "https://images.pexels.com/photos/5069432/pexels-photo-5069432.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   ];

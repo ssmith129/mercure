@@ -6,12 +6,12 @@ const Header = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   const coreIssues = [
-    { name: 'Skin Health', href: '#skin' },
-    { name: 'Hair Restoration', href: '#hair' },
-    { name: 'Body Composition & Muscle', href: '#body' },
-    { name: 'Sexual Health & Vitality', href: '#vitality' },
-    { name: 'Weight Management', href: '#weight' },
-    { name: 'Anti-aging & Longevity', href: '#antiaging' }
+    { name: 'Skin', href: '#skin' },
+    { name: 'Hair', href: '#hair' },
+    { name: 'Body Composition/Muscle', href: '#body' },
+    { name: 'Sex/Vitality', href: '#vitality' },
+    { name: 'Weight', href: '#weight' },
+    { name: 'Antiaging', href: '#antiaging' }
   ];
 
   return (
