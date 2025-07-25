@@ -3,7 +3,16 @@ import { ArrowRight, Sparkles, Heart } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="bg-honeydew min-h-[720px] flex items-center">
+    <section className="bg-honeydew min-h-[720px] flex items-center relative">
+      {/* Logo in top left corner */}
+      <div className="absolute top-6 left-6 z-10">
+        <img 
+          src="/images/logo_no tagline.png" 
+          alt="MerCure Logo" 
+          className="h-12 w-auto opacity-90"
+        />
+      </div>
+      
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
