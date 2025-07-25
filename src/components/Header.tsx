@@ -20,7 +20,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-honeydew font-inter">MerCure</h1>
+            <img 
+              src="/images/Header_White.png" 
+              alt="MerCure" 
+              className="h-8 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
