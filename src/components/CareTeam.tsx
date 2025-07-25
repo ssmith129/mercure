@@ -74,7 +74,7 @@ const CareTeam = () => {
           <div className="lg:col-span-4 flex justify-center">
             <div className="w-[300px] bg-gradient-to-br from-azure-mist to-honeydew rounded-2xl overflow-hidden shadow-lg self-start">
               <img
-                src="https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/public/images/Facetune_16-07-2025-14-50-37.png"
                 alt="Colton Reid, FNP-C"
                 className="w-full h-auto object-cover"
               />
