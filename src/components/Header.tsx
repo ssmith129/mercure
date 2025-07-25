@@ -23,7 +23,8 @@ const Header = () => {
             <img 
               src="/images/Header_White.png" 
               alt="MerCure" 
-              className="h-8 w-auto"
+             className="h-8 w-auto cursor-pointer"
+             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             />
           </div>
 
