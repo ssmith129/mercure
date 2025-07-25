@@ -48,7 +48,7 @@ const Header = () => {
                     <a
                       key={index}
                       href={issue.href}
-                      className="block px-4 py-2 text-gray-700 hover:bg-jade-green hover:text-white transition-colors duration-200 font-open-sans"
+                      className="block px-4 py-2 text-gray-700 hover:bg-jade-green hover:text-white transition-all duration-200 font-open-sans transform hover:translate-x-1 active:scale-95 active:bg-deep-teal"
                     >
                       {issue.name}
                     </a>
@@ -94,7 +94,7 @@ const Header = () => {
                     <a
                       key={index}
                       href={issue.href}
-                      className="block py-1 text-honeydew/80 hover:text-jade-green transition-colors duration-200 font-open-sans text-sm"
+                      className="block py-1 text-honeydew/80 hover:text-jade-green transition-all duration-200 font-open-sans text-sm transform hover:translate-x-1 active:scale-95"
                     >
                       {issue.name}
                     </a>
