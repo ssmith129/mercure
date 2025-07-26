@@ -39,7 +39,7 @@ const Mission = () => {
               className="text-center space-y-4 p-6 rounded-xl hover:bg-honeydew transition-all duration-300"
             >
               <div className="w-16 h-16 bg-jade-green/10 rounded-full flex items-center justify-center mx-auto">
-                <span className="font-open-sans">hello@mercurelife.com</span>
+                <value.icon className="h-8 w-8 text-jade-green" />
               </div>
               <h3 className="text-xl font-bold text-jet-black font-inter">{value.title}</h3>
               <p className="text-gray-600 font-open-sans">{value.description}</p>
