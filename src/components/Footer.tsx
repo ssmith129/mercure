@@ -36,7 +36,7 @@ const Footer = () => {
           {/* About Column */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-bold text-honeydew font-inter mb-4">MerCure</h3>
+              <h3 className="text-2xl font-bold text-honeydew font-inter mb-4">MerCure Life</h3>
               <p className="text-whisper-grey font-open-sans leading-relaxed">
                 Empowering individuals to achieve aesthetic confidence through innovative, personalized, and science-backed health solutions.
               </p>
@@ -127,7 +127,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-500 font-open-sans text-sm">
-            © 2025 MerCure. All rights reserved. | Aesthetic confidence through science-backed solutions.
+            © 2025 MerCure Life. All rights reserved. | Aesthetic confidence through science-backed solutions.
           </p>
         </div>
       </div>

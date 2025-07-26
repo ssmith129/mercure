@@ -30,7 +30,7 @@ const About = () => {
                 Care That Treats the Whole You
               </h2>
               <p className="text-lg text-gray-700 font-open-sans leading-relaxed">
-                At MeCure, we take a comprehensive approach to your health and confidence. Our team combines advanced medical science with a deep understanding of aesthetic wellness to support your goals from every angle—physically, emotionally, and visually.
+                At MerCure Life, we take a comprehensive approach to your health and confidence. Our team combines advanced medical science with a deep understanding of aesthetic wellness to support your goals from every angle—physically, emotionally, and visually.
               </p>
             </div>
 
