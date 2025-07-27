@@ -6,6 +6,7 @@ import CoreIssues from './components/CoreIssues';
 import Services from './components/Services';
 import CareTeam from './components/CareTeam';
 import Approach from './components/Approach';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <CareTeam />
       <Approach />
+      <ContactForm />
       <Footer />
     </div>
   );
