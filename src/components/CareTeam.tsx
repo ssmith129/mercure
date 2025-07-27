@@ -73,11 +73,18 @@ const CareTeam = () => {
 
           <div className="lg:col-span-4 flex justify-center">
             <div className="w-[300px] bg-gradient-to-br from-azure-mist to-honeydew rounded-2xl overflow-hidden shadow-lg self-start hover:scale-105 hover:shadow-xl transition-all duration-500">
-              <img
-                src="/images/Facetune_16-07-2025-14-50-37 copy.png"
-                alt="Colton Reid, FNP-C"
-                className="w-full h-auto object-cover"
-              />
+              <a 
+                href="https://www.linkedin.com/in/colton-reid-msn-fnp-c-cen-cpen-4265671ab/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <img
+                  src="/images/Facetune_16-07-2025-14-50-37 copy.png"
+                  alt="Colton Reid, FNP-C - View LinkedIn Profile"
+                  className="w-full h-auto object-cover hover:opacity-90 transition-opacity duration-200"
+                />
+              </a>
             </div>
           </div>
         </div>
