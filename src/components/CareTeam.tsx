@@ -58,12 +58,12 @@ const CareTeam = () => {
 
             <div className="grid md:grid-cols-3 gap-8 mt-8">
               {credentials.map((credential, index) => (
-                <div key={index} className="space-y-4">
-                  <div className="w-16 h-16 bg-jade-green/10 rounded-full flex items-center justify-center mx-auto">
-                    <credential.icon className="h-8 w-8 text-jade-green" />
+                <div key={index} className="space-y-4 group hover:scale-105 transition-transform duration-300">
+                  <div className="w-16 h-16 bg-jade-green/10 rounded-full flex items-center justify-center mx-auto group-hover:bg-jade-green/20 transition-colors duration-300">
+                    <credential.icon className="h-8 w-8 text-jade-green group-hover:scale-110 transition-transform duration-300" />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-jet-black font-inter text-base text-center">{credential.title}</h4>
+                    <h4 className="font-semibold text-jet-black font-inter text-base text-center group-hover:text-jade-green transition-colors duration-300">{credential.title}</h4>
                     <p className="text-sm text-gray-600 font-open-sans leading-relaxed text-center">{credential.description}</p>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ const CareTeam = () => {
           </div>
 
           <div className="lg:col-span-4 flex justify-center">
-            <div className="w-[300px] bg-gradient-to-br from-azure-mist to-honeydew rounded-2xl overflow-hidden shadow-lg self-start">
+            <div className="w-[300px] bg-gradient-to-br from-azure-mist to-honeydew rounded-2xl overflow-hidden shadow-lg self-start hover:scale-105 hover:shadow-xl transition-all duration-500">
               <img
                 src="/images/Facetune_16-07-2025-14-50-37 copy.png"
                 alt="Colton Reid, FNP-C"

@@ -36,12 +36,12 @@ const Mission = () => {
           {values.map((value, index) => (
             <div
               key={index}
-              className="text-center space-y-4 p-6 rounded-xl hover:bg-honeydew transition-all duration-300"
+              className="text-center space-y-4 p-6 rounded-xl hover:bg-honeydew hover:scale-105 hover:shadow-lg transition-all duration-300 group"
             >
-              <div className="w-16 h-16 bg-jade-green/10 rounded-full flex items-center justify-center mx-auto">
-                <value.icon className="h-8 w-8 text-jade-green" />
+              <div className="w-16 h-16 bg-jade-green/10 rounded-full flex items-center justify-center mx-auto group-hover:bg-jade-green/20 transition-colors duration-300">
+                <value.icon className="h-8 w-8 text-jade-green group-hover:scale-110 transition-transform duration-300" />
               </div>
-              <h3 className="text-xl font-bold text-jet-black font-inter">{value.title}</h3>
+              <h3 className="text-xl font-bold text-jet-black font-inter group-hover:text-jade-green transition-colors duration-300">{value.title}</h3>
               <p className="text-gray-600 font-open-sans">{value.description}</p>
             </div>
           ))}

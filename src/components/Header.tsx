@@ -23,14 +23,14 @@ const Header = () => {
             <img 
               src="/images/Header_White.png" 
               alt="MerCure" 
-             className="h-8 w-auto cursor-pointer"
+             className="h-8 w-auto cursor-pointer hover:scale-105 transition-transform duration-200"
              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             />
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#mission" className="text-honeydew hover:text-jade-green transition-colors duration-200 font-open-sans">Mission</a>
+            <a href="#mission" className="text-honeydew hover:text-jade-green hover:scale-105 transition-all duration-200 font-open-sans">Mission</a>
             
             {/* Core Issues Dropdown */}
             <div 
@@ -38,13 +38,13 @@ const Header = () => {
               onMouseEnter={() => setActiveDropdown('issues')}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-honeydew hover:text-jade-green transition-colors duration-200 font-open-sans flex items-center">
+              <button className="text-honeydew hover:text-jade-green hover:scale-105 transition-all duration-200 font-open-sans flex items-center">
                 Core Issues
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               
               {activeDropdown === 'issues' && (
-                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-lg shadow-lg py-2 z-50">
+                <div className="absolute top-full left-0 mt-1 w-64 bg-white rounded-lg shadow-lg py-2 z-50 animate-fade-in">
                   {coreIssues.map((issue, index) => (
                     <a
                       key={index}
@@ -58,14 +58,14 @@ const Header = () => {
               )}
             </div>
 
-            <a href="#services" className="text-honeydew hover:text-jade-green transition-colors duration-200 font-open-sans">Services</a>
-            <a href="#approach" className="text-honeydew hover:text-jade-green transition-colors duration-200 font-open-sans">Our Approach</a>
-            <a href="#contact" className="text-honeydew hover:text-jade-green transition-colors duration-200 font-open-sans">Contact</a>
+            <a href="#services" className="text-honeydew hover:text-jade-green hover:scale-105 transition-all duration-200 font-open-sans">Services</a>
+            <a href="#approach" className="text-honeydew hover:text-jade-green hover:scale-105 transition-all duration-200 font-open-sans">Our Approach</a>
+            <a href="#contact" className="text-honeydew hover:text-jade-green hover:scale-105 transition-all duration-200 font-open-sans">Contact</a>
           </nav>
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="bg-jade-green text-white px-6 py-2 rounded-lg font-inter font-semibold text-sm uppercase tracking-wide hover:bg-jade-green/90 transition-colors duration-200">
+            <button className="bg-jade-green text-white px-6 py-2 rounded-lg font-inter font-semibold text-sm uppercase tracking-wide hover:bg-jade-green/90 hover:scale-105 hover:shadow-lg transition-all duration-200">
               Book Consultation
             </button>
           </div>

@@ -110,7 +110,7 @@ const Footer = () => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-jade-green text-white px-6 py-3 rounded-lg font-inter font-semibold text-sm uppercase tracking-wide hover:bg-jade-green/90 transition-colors duration-200 flex items-center justify-center group"
+                className="w-full bg-jade-green text-white px-6 py-3 rounded-lg font-inter font-semibold text-sm uppercase tracking-wide hover:bg-jade-green/90 hover:scale-105 transition-all duration-200 flex items-center justify-center group"
               >
                 Join Our Newsletter
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
@@ -118,7 +118,7 @@ const Footer = () => {
             </form>
 
             <div className="pt-4">
-              <button className="w-full bg-deep-teal text-white px-6 py-3 rounded-lg font-inter font-semibold text-sm uppercase tracking-wide hover:bg-deep-teal/90 transition-colors duration-200">
+              <button className="w-full bg-deep-teal text-white px-6 py-3 rounded-lg font-inter font-semibold text-sm uppercase tracking-wide hover:bg-deep-teal/90 hover:scale-105 transition-all duration-200">
                 Book Consultation
               </button>
             </div>

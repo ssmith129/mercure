@@ -64,24 +64,24 @@ const CoreIssues = () => {
             <div
               key={index}
               id={issue.id}
-              className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 group"
+              className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 group cursor-pointer"
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={issue.image}
                   alt={issue.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="p-6 space-y-4">
                 <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 bg-jade-green/10 rounded-lg flex items-center justify-center">
-                    <issue.icon className="h-5 w-5 text-jade-green" />
+                  <div className="w-10 h-10 bg-jade-green/10 rounded-lg flex items-center justify-center group-hover:bg-jade-green/20 transition-colors duration-300">
+                    <issue.icon className="h-5 w-5 text-jade-green group-hover:scale-110 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-jet-black font-inter">{issue.title}</h3>
+                  <h3 className="text-xl font-bold text-jet-black font-inter group-hover:text-jade-green transition-colors duration-300">{issue.title}</h3>
                 </div>
                 <p className="text-gray-600 font-open-sans leading-relaxed">{issue.description}</p>
-                <button className="inline-flex items-center text-jade-green font-inter font-semibold text-sm uppercase tracking-wide hover:text-deep-teal transition-colors duration-200">
+                <button className="inline-flex items-center text-jade-green font-inter font-semibold text-sm uppercase tracking-wide hover:text-deep-teal hover:translate-x-1 transition-all duration-200">
                   Learn More
                 </button>
               </div>

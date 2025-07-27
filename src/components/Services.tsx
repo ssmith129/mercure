@@ -117,10 +117,10 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all duration-300 group"
+              className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:border-jade-green/30 hover:-translate-y-1 transition-all duration-300 group cursor-pointer"
             >
               <div className="flex items-start space-x-4">
-                <div className="text-3xl">{service.icon}</div>
+                <div className="text-3xl group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
                 <div className="flex-1 space-y-3">
                   <div className="flex items-start justify-between">
                     <h3 className="text-lg font-bold text-jet-black font-inter group-hover:text-jade-green transition-colors duration-200">
@@ -141,7 +141,7 @@ const Services = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <button className="bg-jade-green text-white px-8 py-4 rounded-lg font-inter font-semibold text-base uppercase tracking-wide hover:bg-jade-green/90 transition-all duration-200">
+          <button className="bg-jade-green text-white px-8 py-4 rounded-lg font-inter font-semibold text-base uppercase tracking-wide hover:bg-jade-green/90 hover:scale-105 hover:shadow-lg transition-all duration-200">
             Schedule Consultation
           </button>
         </div>
